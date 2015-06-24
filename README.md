@@ -1,7 +1,7 @@
 # Install recipes for quick server setup
 This bunch of recipes is aimed to help you with automatical server setup. No handjob required.
 
-## 1) Serverside
+## 1 Serverside
 Assuming you have root priveligies:
 ###Add new user
 ```bash
