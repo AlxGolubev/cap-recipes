@@ -7,12 +7,18 @@ Assuming you have root priveligies:
 ```bash
 useradd -m [username] -s /bin/bash
 ```
-###Grant access rights to new user 
+
+###Install sudo (optional)
+```sh
+apt-get update
+aup-get install sudo
+```
+###Grant access rights to new user
 Run `visudo` and add:
 ```
 username ALL=(ALL:ALL) NOPASSWD: ALL
 ```
-###Remote repo keys 
+###Remote repo keys
 Add remote repo keys to users .ssh/known_hosts to avoid requests while running cap procedures
 Git:
 ```bash
